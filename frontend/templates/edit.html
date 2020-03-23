@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+{% load static %}
+{% load widget_tweaks %}
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="{% static 'css/style.css' %}" />
+        <title>{{post.title}}</title>
+    </head>
+
+    <body>
+        <h1>Edit what you want</h1>
+        
+
+        </br>
+        
+        
+        <form method="post" novalidate>
+            {% csrf_token %}
+            <p>
+                {% render_field form.title class+="titleForm" %}
+                {{ form.title.errors }}
+            </p>
+            <p>
+                {% render_field form.message class+="messageForm" %}
+                {{ form.message.errors }}
+            </p>
+            <p>
+                {% render_field form.date class+="dateForm" %}
+                {{ form.date.errors }}
+            </p>
+            <button type="submit" class="buttonPost">
+                Submit
+            </button>
+        </form>  
+        
+    </body>
+</html>

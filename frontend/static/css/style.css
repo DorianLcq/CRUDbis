@@ -1,0 +1,144 @@
+
+h1
+{
+    text-align: center;
+}
+
+body
+{
+    background: url("logo.png") fixed no-repeat bottom center;
+}
+
+*
+{
+    font-family : Arial, Comic Sans MS;
+}
+
+.buttonPost {
+      margin : auto;
+      margin-bottom : 50 px;
+      display: block;
+      padding: 15px 25px;
+      font-size: 24px;
+      cursor: pointer;
+      text-align: center;
+      text-decoration: none;
+      outline: none;
+      color: #fff;
+      background-color: #4CAF50;
+      border: none;
+      border-radius: 15px;
+      box-shadow: 0 9px #999;
+}
+
+.buttonPost:hover {background-color: #3e8e41}
+
+.buttonPost:active {
+      background-color: #3e8e41;
+      box-shadow: 0 5px #666;
+      transform: translateY(4px);
+}
+
+
+
+#listview:link, #listview:visited {
+      width : 50%;
+      box-shadow: 0 6px #999;
+      border-radius: 15px;
+      padding : 10px;
+      background-color: lightskyblue;
+      color: white;
+      text-decoration: none;
+      display : inline-block;
+}
+
+#listview:hover{
+      background-color: DarkCyan;
+
+} 
+
+#listview:active{
+
+      background-color: DarkCyan;
+      box-shadow: 0 4px #666;
+      transform: translateY(2px);
+}
+
+
+
+.buttonDelete, .Yes{
+      box-shadow: 0 6px #999;
+      border-radius: 15px;
+      padding : 10px;
+      background-color: #f44336;
+      color: white;
+      text-decoration: none;
+}
+
+.buttonDelete:hover, .Yes:hover{
+      background-color: red;
+
+} 
+
+.buttonDelete:active, .Yes:active{
+
+      background-color: red;
+      box-shadow: 0 4px #666;
+      transform: translateY(2px);
+}
+
+.buttonEdit{
+      box-shadow: 0 6px #999;
+      border-radius: 15px;
+      padding : 10px;
+      background-color: coral;
+      color: white;
+      text-decoration: none;
+}
+
+.buttonEdit:hover{
+      background-color: orangered;
+
+} 
+
+.buttonEdit:active{
+
+      background-color: orangered;
+      box-shadow: 0 4px #666;
+      transform: translateY(2px);
+}
+
+.titleForm {
+  width: 200px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+.warningTitle {
+    color : #f44336;
+}
+
+
+.No {
+      box-shadow: 0 6px #999;
+      border-radius: 15px;
+      padding : 10px;
+      background-color: #4CAF50;
+      color: white;
+      text-decoration: none;
+}
+
+.No:hover{
+      background-color: red;
+
+} 
+
+.No:active{
+
+      background-color: green;
+      box-shadow: 0 4px #666;
+      transform: translateY(2px);
+}
+
+
