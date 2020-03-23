@@ -2,6 +2,7 @@ from django.shortcuts import render, redirect, get_object_or_404
 from .forms import PostForm
 from .models import Post
 from django.views.generic import ListView, DetailView
+from django.conf import settings
 
 
 #home view for posts. Posts are displayed in a list
