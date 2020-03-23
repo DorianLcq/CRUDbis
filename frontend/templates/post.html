@@ -11,7 +11,7 @@
     <body>
         <h1>Fill in all the fields</h1>
         </br>
-        <form method="post" novalidate>
+        <form method="post">
             {% csrf_token %}
             <p>
                 {% render_field form.title class+="titleForm" %}
